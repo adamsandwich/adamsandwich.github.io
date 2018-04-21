@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Adamsandwich&#39;s blog</title>
+  <icon>https://www.gravatar.com/avatar/ac94022292acf755c51b0e300c4fd729</icon>
+  <subtitle>Talk is less show me the code</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://adamsandwich.github.io/"/>
+  <updated>2018-04-21T15:23:06.931Z</updated>
+  <id>https://adamsandwich.github.io/</id>
+  
+  <author>
+    <name>Adam Shen</name>
+    <email>adamsandwich@outlook.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记一次惨烈的腾讯面试</title>
+    <link href="https://adamsandwich.github.io/2018/04/21/tencent-interview/"/>
+    <id>https://adamsandwich.github.io/2018/04/21/tencent-interview/</id>
+    <published>2018-04-20T16:00:00.000Z</published>
+    <updated>2018-04-21T15:23:06.931Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一面"><a href="#一面" class="headerlink" title="一面"></a>一面</h1><ol><li>自我介绍<br> balabala介绍项目</li><li>OAuth2.0 认证授权过程<br> 讲了下用户第一次使用的时候绑定用户信息作为认证源，获取code，获取access token，通过access token获取openid ，refresh token如何保存刷新access token</li><li>sql注入及如何防范<br> 低权限的sql账户，存储过程，参数化sql，检查 <code>--</code>，<code>1=1</code> 等关键词</li><li>xss csrf介绍和如何防范<br> xss（跨站脚本攻击）：代码里对用户输入的地方和变量都需要仔细检查长度和对 <code>&lt;</code> , <code>&gt;</code> , <code>;</code> ,<code>’</code> 等字符做过滤（转义字符）<br> csrf（跨站点请求伪造）：没想起来是什么。。</li><li>如何保证高可用<br> DNS Nginx负载均衡，分库分表（按地域等），主从库，redis（就说了知道。。没用过）</li><li>印象最深的项目<br> 就说了从需求、设计、开发、测试都参与的。介绍下细节和困难，如何实现的</li><li>项目中有什么不足<br> 版本管理不是很好，就说准备看看gitflow，应该有CI</li></ol><h1 id="二面"><a href="#二面" class="headerlink" title="二面"></a>二面</h1><ol><li>自我介绍<br> balabala介绍项目</li><li>数据结构怎么样，问道基础题，42亿QQ号给你4G内存 O（1）时间查询，设计数据结构<br> 很慌没想出来，感觉应该用 <code>bitmap</code></li><li>如何监控用户操作，发现用户操作异常（60s都提交失败）<br> 没做过。。就说只有异常日志，操作日志，感觉应该每隔一段时间请求一次，服务端没收到就表明出现了异常</li><li>用了什么策略保证项目的结构<br> 抽象工厂，AOP，IOC代理，MVC观察者，三层架构，前后端分离</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;一面&quot;&gt;&lt;a href=&quot;#一面&quot; class=&quot;headerlink&quot; title=&quot;一面&quot;&gt;&lt;/a&gt;一面&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;自我介绍&lt;br&gt; balabala介绍项目&lt;/li&gt;
+&lt;li&gt;OAuth2.0 认证授权过程&lt;br&gt; 讲了下用户第一次使用的时候
+      
+    
+    </summary>
+    
+    
+      <category term="面试 腾讯" scheme="https://adamsandwich.github.io/tags/%E9%9D%A2%E8%AF%95-%E8%85%BE%E8%AE%AF/"/>
+    
+  </entry>
+  
+</feed>
